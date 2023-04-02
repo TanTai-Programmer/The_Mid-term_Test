@@ -154,8 +154,77 @@
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding:10px
 }
 .Content__Container__Left__Feedback__header--title{
     font-size:24px;
+    font-weight: bold;
+}
+.Content__Container__Left__Feedback__header--sort{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f3f4f6;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: #8c929c;
+}
+.Content__Container__Left__Feedback__header--sort >option:first-child{
+    display: none;
+}
+.Content__Container__Left__Feedback{
+    border: 1px solid rgba(135,135,135,0.2);
+    border-radius: 5px;
+    margin-top: 35px;
+    padding: 30px;
+    margin-bottom:100px ;
+}
+.Content__Container__Left__Feedback__center__items{
+    padding-top:40px;
+    border-bottom: 1px solid rgba(135,135,135,0.2);
+    padding-bottom:30px ;
+}
+.Content__Container__Left__Feedback__center__items--last{
+    border-bottom: none;
+}
+.Content__Container__Left__Feedback__center__items--Header{
+    display:flex;
+    justify-content:space-between;
+}
+.Content__Container__Left__Feedback__center__items--Header--Name--top {
+    display: flex;
+    align-items:center;
+    font-weight: bold;
+}
+.Content__Container__Left__Feedback__center__items--Header--Name--top >p:last-child{
+    color:#8c929c;
+    padding:0 30px;
+    font-weight: normal;
+}
+.Content__Container__Left__Feedback__center__items--Header--Name--rated{
+    padding:5px 0px;
+}
+.Content__Container__Left__Feedback__center__items--comment{
+    padding-top: 10px;
+    color:#8c929c;
+}
+.Content__Container__Left__Feedback__center__items--Header--Price{
+    font-weight:bold;
+}
+.Content__Container__Left__Feedback__center__items--img{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    padding-top:20px;
+}
+.Content__Container__Left__Feedback__center__items--img img{
+    padding-right:20px ;
+}
+.Content__Container__Left__Showmore button{
+    color:#0ea89b;
+    border:1px solid #0ea89b;
+    width: 130px;
+    height: 35px;
+    border-radius:5px;
+    background:none;
 }
