@@ -12,6 +12,7 @@
     display:flex;
     justify-content:start;
     align-items:center;
+    padding-left: 30px;
 }
 .Menu__Left__Container__items{
     list-style: none;
@@ -46,4 +47,115 @@
     background-color: #f3f4f6;
     border:none;
     outline: none;
+}
+.Content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Content__Container{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding-top:50px ;
+}
+.Content__Container__Left{
+    width: 800px;
+    height: auto;
+}
+.Content__Container__Right{
+    width: 350px;
+    height: auto;
+    background-color:lightgreen;
+}
+.Content__Container__Left__Diana{
+    padding:30px;
+    border:1px solid rgba(135,135,135,0.2);
+    border-radius:10px
+}
+.Content__Container__Left__Diana__header{
+    display:flex;
+    justify-content: space-between;
+    align-items:start;
+
+}
+.Content__Container__Left__Diana__header__left{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Content__Container__Left__Diana__header__left--Name{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: start;
+    padding:0 20px;
+}
+.Content__Container__Left__Diana__header__left--Name >p:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0ea89b;
+}
+.Content__Container__Left__Diana__header__left--Address{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    font-size: 18px;
+    color: #8c929c;
+}
+.Content__Container__Left__Diana__header__left--Address >p:last-child{
+    font-size:14px;
+    padding:10px 0px;
+}
+.Content__Container__Left__Diana__header_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    color:#8c929c
+}
+.Content__Container__Left__Diana__header__right--top{
+    color:#0ea89b;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Content__Container__Left__Diana__info{
+    padding-top:35px;
+}
+.Content__Container__Left__Diana__info--header{
+    font-size:24px;
+    font-weight: bold;
+
+}
+.Content__Container__Left__Diana__info--rated{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.Content__Container__Left__Diana__info--center{
+    color:#8c929c;
+    padding:10px 0;
+}
+.Content__Container__Left__Diana__info--rated--items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    color: #8c929c;
+}
+.Content__Container__Left__Diana__info--rated--items >p:first-child{
+    font-weight: bold;
+    padding:5px;
+    color:black;
+}
+.Content__Container__Left__Feedback__header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px
+}
+.Content__Container__Left__Feedback__header--title{
+    font-size:24px;
 }
